@@ -1,0 +1,116 @@
+/* ===== BASE STYLES ===== */
+    /* Custom color tokens, typography, and utility overrides */
+    :root {
+      --sage: #5C6B4F;
+      --moss: #36402E;
+      --linen: #F6F4EE;
+      --clay: #B5836A;
+      --ink: #29291f;
+    }
+    body {
+      font-family: 'Karla', sans-serif;
+      color: var(--ink);
+      background-color: var(--linen);
+    }
+    h1, h2, h3, h4, .display-font {
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      font-variation-settings: 'SOFT' 50;
+    }
+    .display-light {
+      font-weight: 350;
+    }
+    /* ===== BOTANICAL DIVIDER ===== */
+    .botanical-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 12rem;
+      margin: 0 auto;
+    }
+    .botanical-divider svg {
+      width: 100%;
+      height: auto;
+    }
+    /* ===== HERO CARD ===== */
+    .sage-card {
+      background: #fff;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(41, 41, 31, 0.08);
+    }
+    .sage-card-header {
+      background: var(--moss);
+      color: var(--linen);
+    }
+    /* ===== SECTION BANDS ===== */
+    .band-moss {
+      background: var(--moss);
+      color: var(--linen);
+    }
+    .band-linen {
+      background: var(--linen);
+      color: var(--ink);
+    }
+    .band-sage-light {
+      background: #e8ece2;
+      color: var(--ink);
+    }
+    /* ===== ACCENT ===== */
+    .text-clay {
+      color: var(--clay);
+    }
+    .border-clay {
+      border-color: var(--clay);
+    }
+    .hover-clay:hover {
+      color: var(--clay);
+    }
+    /* ===== SERVICE CARD ===== */
+    .service-card {
+      background: #fff;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      box-shadow: 0 2px 12px rgba(41, 41, 31, 0.05);
+      transition: box-shadow 0.2s;
+    }
+    .service-card:hover {
+      box-shadow: 0 8px 24px rgba(41, 41, 31, 0.08);
+    }
+    /* ===== STEP CARD ===== */
+    .step-card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      backdrop-filter: blur(4px);
+    }
+    /* ===== UTILITY ===== */
+    a, button {
+      transition: all 0.2s ease;
+    }
+    .phone-link, .chat-link {
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .phone-link {
+      color: var(--linen);
+      border-bottom: 2px solid var(--clay);
+      text-decoration: none;
+    }
+    .phone-link:hover {
+      color: var(--clay);
+    }
+    /* ===== RESPONSIVE IFRAME CONTAINER ===== */
+    .sage-iframe-wrap {
+      position: relative;
+      width: 100%;
+      min-height: 560px;
+    }
+    .sage-iframe-wrap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
