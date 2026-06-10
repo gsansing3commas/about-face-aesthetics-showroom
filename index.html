@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/about-face-aesthetics-showroom/">
+<!-- BASE:END -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Fraunces + Karla -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..600,50&family=Karla:wght@300..700&display=swap" rel="stylesheet">
+  
+
+<!-- SEO Meta Tags -->
+<title>About Face Aesthetics — A Destination for the Intentional | St. Augustine FL</title>
+<meta name="description" content="Founded 1996 by Melanie Cowling, About Face Aesthetics is a botanical, intentional skin studio in St. Augustine FL. Three decades of honest care, two generations strong." />
+<meta property="og:title" content="About Face Aesthetics — A Destination for the Intentional | St. Augustine FL" />
+<meta property="og:description" content="Founded 1996 by Melanie Cowling, About Face Aesthetics is a botanical, intentional skin studio in St. Augustine FL. Three decades of honest care, two generations strong." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="About Face Aesthetics — A Destination for the Intentional | St. Augustine FL" />
+<meta name="twitter:description" content="Founded 1996 by Melanie Cowling, About Face Aesthetics is a botanical, intentional skin studio in St. Augustine FL. Three decades of honest care, two generations strong." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mq8laj73-futhk";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  var u=new URL(location.href);var found=null;var changed=false;
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{localStorage.setItem(map[p]+slug,v);}catch(e){}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4700');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='8GNwhVyEJ';
+  var apiBase='https://paymegpt.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased leading-relaxed">
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: NAVBAR — lightweight top bar with logo + anchored nav links        -->
+  <!-- ============================================================================ -->
+  <nav data-section="navbar" class="band-linen border-b border-[#dcd8ce]/50">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12 py-4 flex items-center justify-between">
+      <a href="/about-face-aesthetics-showroom/" class="display-font text-xl md:text-2xl tracking-tight text-[var(--moss)] no-underline hover:opacity-80">
+        About Face
+        <span class="block text-xs md:text-sm font-normal font-['Karla'] tracking-wider uppercase text-[var(--sage)] -mt-0.5">St. Augustine</span>
+      </a>
+      <div class="flex items-center gap-5 md:gap-8 text-sm md:text-base">
+        <a href="#honest" class="text-[var(--ink)]/80 hover:text-[var(--sage)] no-underline font-medium">Honest Consult</a>
+        <a href="#services" class="text-[var(--ink)]/80 hover:text-[var(--sage)] no-underline font-medium">Care</a>
+        <a href="#appointments" class="text-[var(--ink)]/80 hover:text-[var(--sage)] no-underline font-medium">Appointments</a>
+        <a href="tel:+19047940737" class="hidden sm:inline-block bg-[var(--moss)] text-[var(--linen)] px-4 py-2 rounded-full text-sm font-semibold no-underline hover:bg-[var(--sage)]">(904) 794-0737</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: HERO — two columns: intro text / Sage concierge embed               -->
+  <!-- ============================================================================ -->
+  <section data-section="hero" class="band-linen pt-8 md:pt-12 pb-12 md:pb-16">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
+
+        <!-- LEFT COLUMN: headline, trust line, CTAs -->
+        <div class="space-y-6">
+          <p class="text-sm md:text-base font-semibold tracking-[0.2em] uppercase text-[var(--sage)]">St. Augustine · Since 1996</p>
+
+          <h1 class="display-font text-4xl md:text-5xl lg:text-6xl leading-[1.1] tracking-tight text-[var(--ink)]">
+            Thirty years of knowing skin. Two generations of caring for it.
+          </h1>
+
+          <!-- Botanical divider -->
+          <div class="botanical-divider py-1">
+            <svg viewBox="0 0 200 24" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+              <!-- a single olive branch line — hand-drawn feel -->
+              <path d="M10 14 C30 4, 50 20, 70 10 C90 0, 110 18, 130 8 C150 -2, 170 16, 190 6"
+                stroke="#5C6B4F" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+              <path d="M45 12 Q48 6 52 10 Q56 14 60 10"
+                stroke="#5C6B4F" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+              <path d="M105 10 Q108 4 112 8 Q116 12 120 8"
+                stroke="#5C6B4F" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+              <ellipse cx="42" cy="13" rx="3" ry="2" fill="#5C6B4F" opacity="0.3"/>
+              <ellipse cx="108" cy="10" rx="3" ry="2" fill="#5C6B4F" opacity="0.3"/>
+            </svg>
+          </div>
+
+          <p class="text-base md:text-lg leading-relaxed text-[var(--ink)]/80 max-w-xl">
+            Melanie Cowling opened About Face in 1996. Today she works beside her daughter Haley — and clients still drive past every spa between Ponte Vedra and here, because honest recommendations never go out of style.
+          </p>
+
+          <!-- CTA buttons -->
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="#sage" class="inline-block bg-[var(--moss)] text-[var(--linen)] px-7 py-3 rounded-full text-base font-semibold no-underline hover:bg-[var(--sage)]">Chat with Sage</a>
+            <a href="tel:+19047940737" class="inline-block border-2 border-[var(--moss)] text-[var(--moss)] px-7 py-3 rounded-full text-base font-semibold no-underline hover:bg-[var(--moss)] hover:text-[var(--linen)]">Call (904) 794-0737</a>
+          </div>
+
+          <!-- Trust line -->
+          <div class="flex flex-wrap items-center gap-2 text-sm md:text-base text-[var(--ink)]/60 pt-2">
+            <span class="font-semibold text-[var(--clay)]">★ 5.0 stars</span>
+            <span class="w-1 h-1 rounded-full bg-[var(--ink)]/20"></span>
+            <span>Clients of 16+ years</span>
+            <span class="w-1 h-1 rounded-full bg-[var(--ink)]/20"></span>
+            <span>Family owned</span>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Sage concierge card with iframe -->
+        <div id="sage" class="sage-card" data-section="sage-concierge">
+          <div class="sage-card-header px-4 py-3 flex items-center gap-3">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#6fcf97] inline-block"></span>
+            <span class="display-font text-sm md:text-base tracking-wide">Sage — About Face Concierge</span>
+            <span class="ml-auto text-xs font-['Karla'] opacity-70">Online now</span>
+          </div>
+          <div class="sage-iframe-wrap relative" style="min-height:560px;">
+            <iframe src="https://paymegpt.com/agents/86579086/embed" frameborder="0" style="width:100%;height:560px;border:none;display:block" title="Sage Concierge Chat"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: The Honest Consult — short prose about trust & anti-upsell          -->
+  <!-- ============================================================================ -->
+  <section data-section="honest-consult" id="honest" class="band-sage-light py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
+      <div class="max-w-3xl mx-auto text-center space-y-6">
+        <h2 class="display-font text-3xl md:text-4xl lg:text-5xl leading-[1.15] text-[var(--moss)]">The Honest Consult</h2>
+        <div class="botanical-divider py-1">
+          <svg viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+            <path d="M10 12 C30 2, 50 18, 70 8 C90 -2, 110 16, 130 6 C150 -4, 170 14, 190 4"
+              stroke="#5C6B4F" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path d="M55 10 Q58 4 62 8 Q66 12 70 8"
+              stroke="#5C6B4F" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.4"/>
+            <ellipse cx="52" cy="11" rx="2.5" ry="1.8" fill="#5C6B4F" opacity="0.25"/>
+          </svg>
+        </div>
+        <p class="text-base md:text-lg leading-relaxed text-[var(--ink)]/80">
+          Again and again, reviews mention being talked <em>out</em> of pricier treatments. That&rsquo;s not a marketing angle — it&rsquo;s thirty years of knowing that trust matters more than any upsell. Melanie&rsquo;s team recommends what your skin actually needs, even when it means less revenue at the register. Clients drive from Jacksonville, Palm Coast, and beyond because honest recommendations never go out of style.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: Care, Three Ways — service columns with treatment lists             -->
+  <!-- ============================================================================ -->
+  <section data-section="services" id="services" class="band-linen py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
+      <div class="text-center mb-14 space-y-4">
+        <h2 class="display-font text-3xl md:text-4xl lg:text-5xl leading-[1.15] text-[var(--moss)]">Care, Three Ways</h2>
+        <p class="text-base md:text-lg text-[var(--ink)]/70 max-w-xl mx-auto">All products are cruelty-free, gluten-free, and paraben-free.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- COLUMN 1: Skin Artistry -->
+        <div class="service-card space-y-4">
+          <div class="w-10 h-10 rounded-full bg-[var(--sage)]/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-[var(--sage)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l3 7h7l-5.5 5.5L17 21 12 17 7 21l1.5-6.5L3 9h7l2-7z"/></svg>
+          </div>
+          <h3 class="display-font text-xl md:text-2xl text-[var(--moss)]">Skin Artistry</h3>
+          <ul class="space-y-2 text-sm md:text-base text-[var(--ink)]/80">
+            <li>Fibroblasting plasma tightening</li>
+            <li>Signature facials</li>
+            <li>HydraFacial MD</li>
+            <li>Chemical peels</li>
+            <li>Dermablading</li>
+            <li>Microneedling</li>
+            <li>IPL</li>
+            <li>Acne programs</li>
+          </ul>
+        </div>
+
+        <!-- COLUMN 2: Defining Details -->
+        <div class="service-card space-y-4">
+          <div class="w-10 h-10 rounded-full bg-[var(--clay)]/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-[var(--clay)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l3 7h7l-5.5 5.5L17 21 12 17 7 21l1.5-6.5L3 9h7l2-7z"/></svg>
+          </div>
+          <h3 class="display-font text-xl md:text-2xl text-[var(--moss)]">Defining Details</h3>
+          <ul class="space-y-2 text-sm md:text-base text-[var(--ink)]/80">
+            <li>Permanent makeup — brows, eyeliner, lips</li>
+            <li>Electrolysis</li>
+            <li>Laser hair removal</li>
+            <li>Lash lift &amp; tint</li>
+            <li>Brow shaping</li>
+          </ul>
+        </div>
+
+        <!-- COLUMN 3: Medical & Restorative -->
+        <div class="service-card space-y-4">
+          <div class="w-10 h-10 rounded-full bg-[var(--moss)]/20 flex items-center justify-center">
+            <svg class="w-5 h-5 text-[var(--moss)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l3 7h7l-5.5 5.5L17 21 12 17 7 21l1.5-6.5L3 9h7l2-7z"/></svg>
+          </div>
+          <h3 class="display-font text-xl md:text-2xl text-[var(--moss)]">Medical &amp; Restorative</h3>
+          <ul class="space-y-2 text-sm md:text-base text-[var(--ink)]/80">
+            <li>Botox &amp; fillers — with Angela, NP</li>
+            <li>PDO threads</li>
+            <li>PRP hair regrowth</li>
+            <li>Keravive</li>
+            <li>Hormone therapy</li>
+            <li>Massage</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: Appointments — deep moss band with headline, steps, CTAs            -->
+  <!-- ============================================================================ -->
+  <section data-section="appointments" id="appointments" class="band-moss py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12 text-center space-y-10">
+      <h2 class="display-font text-3xl md:text-4xl lg:text-5xl leading-[1.15] text-[var(--linen)]">Intentional care begins with an easy yes.</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <!-- Step 1 -->
+        <div class="step-card space-y-2">
+          <span class="inline-block text-3xl md:text-4xl font-['Karla'] font-light text-[var(--clay)]">01</span>
+          <p class="text-base md:text-lg text-[var(--linen)]/90">Ask Sage day or night</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="step-card space-y-2">
+          <span class="inline-block text-3xl md:text-4xl font-['Karla'] font-light text-[var(--clay)]">02</span>
+          <p class="text-base md:text-lg text-[var(--linen)]/90">Choose your time</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="step-card space-y-2">
+          <span class="inline-block text-3xl md:text-4xl font-['Karla'] font-light text-[var(--clay)]">03</span>
+          <p class="text-base md:text-lg text-[var(--linen)]/90">Melanie&rsquo;s team confirms by phone</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-5 pt-4">
+        <a href="#sage" class="inline-block bg-[var(--linen)] text-[var(--moss)] px-8 py-3 rounded-full text-base font-semibold no-underline hover:bg-[var(--clay)] hover:text-white">Chat with Sage</a>
+        <a href="tel:+19047940737" class="inline-block border-2 border-[var(--linen)] text-[var(--linen)] px-8 py-3 rounded-full text-base font-semibold no-underline hover:bg-[var(--linen)] hover:text-[var(--moss)]">Call (904) 794-0737</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- SECTION: Footer — address, phone, hours                                     -->
+  <!-- ============================================================================ -->
+  <footer data-section="footer" class="band-linen border-t border-[#dcd8ce]/50 py-10 md:py-14">
+    <div class="max-w-6xl mx-auto px-4 md:px-8 lg:px-12 text-center md:text-left">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        <div>
+          <p class="display-font text-lg text-[var(--moss)]">About Face Aesthetics</p>
+          <p class="text-sm text-[var(--ink)]/70 mt-1">105 Mariner Health Way, Suite 203<br>St. Augustine, FL 32086</p>
+          <p class="text-xs text-[var(--ink)]/50 mt-1">(south of Beaver Toyota)</p>
+        </div>
+        <div class="text-center">
+          <a href="tel:+19047940737" class="text-xl md:text-2xl font-semibold text-[var(--moss)] no-underline hover:text-[var(--sage)]">(904) 794-0737</a>
+        </div>
+        <div class="text-right">
+          <p class="text-sm text-[var(--ink)]/70"><span class="font-semibold">Closed Sun &amp; Mon</span></p>
+          <p class="text-sm text-[var(--ink)]/50">© 2026 About Face Aesthetics</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-[#dcd8ce]/30 text-center text-xs text-[var(--ink)]/50">
+        <p>Botanical, intentional, quietly premium — a destination for the intentional.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================================ -->
+  <!-- Iframe auto-resize script (Sage concierge)                                   -->
+  <!-- ============================================================================ -->
+  <script src="https://paymegpt.com/iframe-auto-resize.js"></script>
+
+</body>
+</html>
